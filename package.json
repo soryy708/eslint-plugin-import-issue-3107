@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "prepare": "minify public/bogus.js > public/bogus-min.js",
+        "lint": "eslint ./public"
+    },
+    "devDependencies": {
+        "eslint": "^9.17.0",
+        "eslint-plugin-import": "^2.31.0",
+        "minify": "^12.0.0"
+    }
+}
